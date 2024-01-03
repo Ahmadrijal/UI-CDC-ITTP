@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beranda - Career Development Center</title>
+  <!-- css -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- bootsrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Icons web -->
+  <link rel="icon" href="/assets/img/loogo.png">
+</head>
+
+<body>
+  <!-- ======= Top Bar ======= -->
+  <header id="topbar" class="d-flex align-items-center flex-column "
+    style="background-color: #D63131; height: 40px; font-size: 12px;">
+    <div class="nav-togglee align-items-center" id="navTogglee">
+      <img id="navClosed" class="navIcon" src="/assets/img/menu-kebab.png" alt="kebab menu">
+      <img id="navOpen" class="navIcon hidden" src="/assets/img/close.png" alt="close hamburger">
+    </div>
+    <div class="container d-flex align-items-center justify-content-md-between ">
+      <div class="nav nav-top fw-normal mh-5">
+        <a class="nav-link" href="https://ittelkom-pwt.ac.id/tentang-ittp/">Tentang ITTP</a>
+        <a class="nav-link" href="https://akademik.ittelkom-pwt.ac.id/">Akademik</a>
+        <a class="nav-link" href="https://dlibrary.ittelkom-pwt.ac.id/">Perpustakaan</a>
+      </div>
+      <div class="search-bar">
+        <form class="d-flex" id="search-form">
+          <div class="input-group position-relative border-0 rounded-3 m-1">
+            <input class="form-control" type="text" id="search-input" placeholder="Pencarian" aria-label="Search"
+              required>
+            <button class="btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/img/logo.png" width="75%">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ITTP Karir
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/category/lowongan/index.html">Lowongan Kerja</a></li>
+                  <li><a class="dropdown-item" href="/category/magang/index.html">Magang</a></li>
+                  <li class="nav-item dropend">
+                    <a class="nav-link dropdown-toggle no-underline" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Career Days
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/career-days/2023/index.html">Career Days 2023</a></li>
+                      <li><a class="dropdown-item" href="#">Career Days 2022</a></li>
+                      <li><a class="dropdown-item" href="#">Career Days 2021</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="/career-days/2023/index.html">Hiring Campus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/kanal-berita/index.html">Kanal Berita</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Event
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/category/webinar/index.html">Webinar</a></li>
+                  <li><a class="dropdown-item" href="#">Pelatihan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dokumentasi/index.html">Dokumentasi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="image">
+    <img src="/assets/img/banner.png" width="100%">
+  </div>
+  <!-- Loker Start -->
+  <div class="container-xxl py-5 loker" style="background-color: #F2F4FA;">
+    <div class="container ">
+      <h2 class="text-center mb-3 fw-bolder">Daftar Lowongan</h2>
+      <div class="tab-class text-center">
+        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-3">
+          <li class="nav-item">
+            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+              <h6 class="mt-n1 mb-0">Pekerjaan</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+              <h6 class="mt-n1 mb-0">Magang</h6>
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/logoperusahaan.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Admin Gudang</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Abimanyu Putra Pratama</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="/category/lowongan/detail-lowongan/index.html">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/bni.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Assistant Development Program</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Bank Negara Indonesia Tbk</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/logoperusahaan.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Admin Project</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Abimanyu Putra Pratama</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <a class="btn py-2 px-4" href="/category/lowongan/index.html" style="background-color: #D63131; color: #Fff;">View More Jobs</a>
+          </div>
+          <div id="tab-2" class="tab-pane fade show p-0">
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/logoperusahaan.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Admin Gudang</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Abimanyu Putra Pratama</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/logoperusahaan.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Admin Project</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Abimanyu Putra Pratama</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <div class="job-item p-4 mb-4">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid border rounded" src="/assets/img/bni.png" alt=""
+                    style="width: 80px; height: 80px;">
+                  <div class="text-start ps-4">
+                    <h5 class="mb-3 fw-bold">Assistant Development Program</h5>
+                    <span class="text-truncate me-3"><i class="fas fa-map-marker me-2" style="color: #D63131;"></i>PT.
+                      Bank Negara Indonesia Tbk</span>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                  <div class="d-flex mb-3">
+                    <a class="btn" style="background-color: #D63131; color: #Fff;" href="">View More</a>
+                  </div>
+                  <small class="text-truncate"><i class="fas fa-calendar-alt me-2" style="color: #D63131;"></i>Tanggal :
+                    12 Des, 2023</small>
+                </div>
+              </div>
+            </div>
+            <a class="btn py-2 px-4" href="/category/magang/index.html" style="background-color: #D63131; color: #Fff;">View More Internship</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Loker End -->
+  <!-- Alumni Start -->
+  <div id="AlumniCarousel" class="carousel slide AlumniCarousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#AlumniCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#AlumniCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#AlumniCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="overlay"></div>
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="Alumni">
+                <img src="/assets/img/alumni1.jpeg" alt="User" class="img-fluid rounded-circle mb-3">
+                <h5 class="mb-1 fw-bold" style="color: #fff;">Rifqi Fauzan, A.Md.T., S.T.</h5>
+                <p class="mb-3" style="color: #fff;">Bekerja di PT. Defender Nusa Semesta (CTI Group)</p>
+                  <p class="mb-0" style="color: #fff;"><i class="fas fa-quote-left" style="color: #D63131;"></i> Kuliah di ITTP ada program Alih Jenjang dari D3 ke
+                    S1 dan itu bisa kuliah sambil bekerja, hal ini saya tertarik untuk meningkatkan kompetensi di dunia
+                    IT yang semakin berkembang, sehingga perlu meng-Upgrade ilmu dan pendidikan untuk menunjang Karir
+                    yang lebih baik. Oleh karena itu, saya memilih kuliah di ITTP yang cukup terjangkau biaya kuliahnya,
+                    lingkungan yang nyaman dan kualiatas pendidikan pun sangat baik. Jaya terus CDC dan ITTP. <i class="fas fa-quote-right" style="color: #D63131;"></i>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="Alumni">
+                <img src="/assets/img/alumni1.jpeg" alt="User" class="img-fluid rounded-circle mb-3">
+                <h5 class="mb-1 fw-bold" style="color: #fff;">Rifqi Fauzan, A.Md.T., S.T.</h5>
+                <p class="mb-3" style="color: #fff;">Bekerja di PT. Defender Nusa Semesta (CTI Group)</p>
+                  <p class="mb-0" style="color: #fff;"><i class="fas fa-quote-left" style="color: #D63131;"></i> Kuliah di ITTP ada program Alih Jenjang dari D3 ke
+                    S1 dan itu bisa kuliah sambil bekerja, hal ini saya tertarik untuk meningkatkan kompetensi di dunia
+                    IT yang semakin berkembang, sehingga perlu meng-Upgrade ilmu dan pendidikan untuk menunjang Karir
+                    yang lebih baik. Oleh karena itu, saya memilih kuliah di ITTP yang cukup terjangkau biaya kuliahnya,
+                    lingkungan yang nyaman dan kualiatas pendidikan pun sangat baik. Jaya terus CDC dan ITTP. <i class="fas fa-quote-right" style="color: #D63131;"></i>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="Alumni">
+                <img src="/assets/img/alumni1.jpeg" alt="User" class="img-fluid rounded-circle mb-3">
+                <h5 class="mb-1 fw-bold" style="color: #fff;">Rifqi Fauzan, A.Md.T., S.T.</h5>
+                <p class="mb-3" style="color: #fff;">Bekerja di PT. Defender Nusa Semesta (CTI Group)</p>
+                  <p class="mb-0" style="color: #fff;"><i class="fas fa-quote-left" style="color: #D63131;"></i> Kuliah di ITTP ada program Alih Jenjang dari D3 ke
+                    S1 dan itu bisa kuliah sambil bekerja, hal ini saya tertarik untuk meningkatkan kompetensi di dunia
+                    IT yang semakin berkembang, sehingga perlu meng-Upgrade ilmu dan pendidikan untuk menunjang Karir
+                    yang lebih baik. Oleh karena itu, saya memilih kuliah di ITTP yang cukup terjangkau biaya kuliahnya,
+                    lingkungan yang nyaman dan kualiatas pendidikan pun sangat baik. Jaya terus CDC dan ITTP. <i class="fas fa-quote-right" style="color: #D63131;"></i>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Alumni End -->
+  <!-- Webinar -->
+  <section class="webinar py-3 my-5 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <button class="btn mb-3 me-1" style="background-color: #D63131; color: #fff;" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="btn mb-3" style="background-color: #D63131; color: #fff;" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-inner">
+                      <!-- Carousel webinar -->
+                      <div class="carousel-item active">
+                        <h2 class="mb-3 fw-bolder text-center">Webinar</h2>
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                          <div class="col-md-3 mb-3">
+                            <a  href="/category/webinar/detail-webinar/index.html">
+                              <div class="card">
+                                  <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                  <div class="card-body py-3">
+                                      <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                      <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                  </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <a href="">
+                              <div class="card">
+                                  <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                  <div class="card-body py-3">
+                                    <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                    <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                  </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <a href="">
+                              <div class="card">
+                                  <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                  <div class="card-body py-3">
+                                    <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                    <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                  </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <a href="">
+                              <div class="card">
+                                  <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                  <div class="card-body py-3">
+                                    <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                    <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                  </div>
+                              </div>
+                            </a>
+                          </div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <a class="btn py-2 px-4" href="/category/webinar/index.html" style="background-color: #D63131; color: #fff;">View More</a>
+                  </div>
+                    </div>
+                    <!-- Carousel Pelatihan -->
+                    <div class="carousel-item">
+                      <h2 class="mb-3 fw-bolder text-center">Pelatihan</h2>
+                      <div class="row">
+                        <div class="col-md-3 mb-3">
+                          <a href="">
+                            <div class="card">
+                                <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                <div class="card-body py-3">
+                                  <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                  <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <a href="">
+                            <div class="card">
+                                <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                <div class="card-body py-3">
+                                  <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                  <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <a href="">
+                            <div class="card">
+                                <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                <div class="card-body py-3">
+                                  <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                  <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <a href="">
+                            <div class="card">
+                                <img class="card-img" src="/assets/img/poster-webinar.png" alt="Gambar Webinar" style="width: 100%; border-radius: 0;">
+                                <div class="card-body py-3">
+                                  <h5 class="card-title border-bottom text-center fw-bold" style="text-decoration: none;">Webinar Pembekalan Karir</h5>
+                                  <p class="card-text text-center">Program Rekrutmen PT. Telkom Indonesia</p>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <a class="btn py-2 px-4" href="" style="background-color: #D63131; color: #fff;">View More</a>
+                </div>
+                  </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- akhir webinar -->
+  <!-- Kanal berita -->
+  <section id="berita" class="berita py-5" style="background-color: #F2F4FA;">
+    <div class="container">
+      <h2 class="text-center fw-bolder mb-3">Kanal Berita</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="col">
+          <div class="card h-100">
+            <img class="card-img-top" src="/assets/img/PMMB.jpg" alt="PMMB" style="object-fit: cover; width: 100%; height: 170px;">
+              <div class="card-body">
+              <div class="small text-muted">19 Agustus, 2021</div>
+              <h5 class="card-title fw-bold border-bottom">Pengumuman Hasil Matchup PMMB BUMN</h5>
+              <p class="card-text text-muted">Selamat kepada mahasiswa yang berhasil lolos dalam matchup pada Program Magang Mahasiswa Bersertifikat (PMMB).</p>
+              <a href="/kanal-berita/detail-berita/index.html" class="btn" style="background-color: #D63131; color: #fff;">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="card-img-top" src="/assets/img/PMMB.jpg" alt="PMMB" style="object-fit: cover; width: 100%; height: 170px;">
+            <div class="card-body">
+              <div class="small text-muted">19 Agustus, 2021</div>
+              <h5 class="card-title fw-bold border-bottom">Pengumuman Hasil Matchup PMMB BUMN</h5>
+              <p class="card-text text-muted">Selamat kepada mahasiswa yang berhasil lolos dalam matchup pada Program Magang Mahasiswa Bersertifikat (PMMB).</p>
+              <a href="/kanal-berita/detail-berita/index.html" class="btn" style="background-color: #D63131; color: #fff;">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="card-img-top" src="/assets/img/PMMB.jpg" alt="PMMB" style="object-fit: cover; width: 100%; height: 170px;">
+            <div class="card-body">
+              <div class="small text-muted">19 Agustus, 2021</div>
+              <h5 class="card-title fw-bold border-bottom">Pengumuman Hasil Matchup PMMB BUMN</h5>
+              <p class="card-text text-muted">Selamat kepada mahasiswa yang berhasil lolos dalam matchup pada Program Magang Mahasiswa Bersertifikat (PMMB).</p>
+              <a href="/kanal-berita/detail-berita/index.html" class="btn" style="background-color: #D63131; color: #fff;">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+          <a class="btn py-2 px-4" href="/kanal-berita/index.html" style="background-color: #D63131; color: #fff;">View More News</a>
+      </div>
+    </div>
+  </section>
+  <!-- akhir berita -->
+  <!-- Footer -->
+  <footer class="text-light pt-4" style="background-color: #8b1d1d;">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Bagian 1 -->
+            <div class="col">
+                <h5 class="fw-bold">Kontak Kami</h5>
+                <p>CAREER DEVELOPMENT CENTER</p>
+                <p>Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah 53147</p>
+                <p>Email : career@ittelkom-pwt.ac.id </p>
+                <p>Telp : 081231302364</p>
+            </div>
+            <!-- Bagian 2 -->
+            <div class="col quickmenu">
+                <h5 class="fw-bold">Quick Menu</h5>
+                <ul>
+                <li><a href="">Tentang Kami</a></li>
+                <li><a href="">IKATEL</a></li>
+                <li><a href="">Alumni</a></li>
+                <li><a href="/category/lowongan/index.html">Lowongan Pekerjaan</a></li>
+                <li><a href="">Pelatihan</a></li>
+              </ul>
+            </div>
+            <!-- Bagian 3 -->
+            <div class="col">
+                <h5 class="fw-bold">Lokasi Kampus</h5>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.2708044739916!2d109.24651767414957!3d-7.435257773252326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sInstitut%20Teknologi%20Telkom%20Purwokerto!5e0!3m2!1sid!2sid!4v1704227182372!5m2!1sid!2sid" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <div class="text-end social-media">
+                  <a href="https://www.instagram.com/pusatkarir_ittp/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/pengembangankarir.ittp.1"><i class="fab fa-facebook"></i></a>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=career@ittelkom-pwt.ac.id&cc=career@ittelkom-pwt.ac.id&bcc=career@ittelkom-pwt.ac.id&su=SUBJECT&body=BODY" target="_blank"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <div class="bottom-bar" style="background-color: #440d0d;">
+        <div class="container">
+          <p>&copy; 2024 <a href="/index.html">Career Development Center IT Telkom Purwokerto</a> - All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  <!-- akhir footer -->
+  <script src="/assets/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
